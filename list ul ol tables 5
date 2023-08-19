@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- if i write here (ul) and then write (li) inside it and here i write this is first item of
+    unordered list and then replicates in ol it is ordered list 
+    there are two types of list ordered list and unordered list so there is an ordered list , it looks 
+    like this, as you see number come by doing 1,2,3 and after unordered list here you can see the 
+    bullets are coming -->
+    <ul>
+        <li>This is the first item in unordered list</li>
+        <li>This is the Second item in unordered list</li>
+        <li>This is the Third item in unordered list</li>
+    </ul>
+    <ol>
+        <li>This is the first item in ordered list</li>
+        <li>This is the Second item in ordered list</li>
+        <li>This is the third item in ordered list</li>
+    </ol>
+    <!-- here we change the type of ordered list and unordered list -->
+    <ol type = "a">
+        <li>This is the first item in ordered list</li>
+        <li>This is the Second item in ordered list</li>
+        <li>This is the third item in ordered list</li>
+    </ol>
+
+    <ul type = "square">
+        <ul>
+            <li>This is the first item in unordered list</li>
+            <li>This is the Second item in unordered list</li>
+            <li>
+                <!-- this is a nesting list here -->
+                <ul> 
+                    <li>Another one</li>
+                    <li>Another two</li>
+                    <li>Another three</li>
+                </ul>
+            </li>
+            <li>This is the Third item in unordered list</li>
+        </ul>
+    </ul>
+    <!-- i want to see here table so, i do one thing , i put a heading here i will write h3 , h1 
+    will be very big that's why and here i wrote html table what i will do after this here i will
+    with the table tag. there will be two things inside the table one will come the thread under it
+    will come the head of the table and there will come a tbody under it will come the body of the 
+    table now this thing will not tell you that there is no need to learn this thing will come to 
+    you automatically 
+    we start a row with the help of a (tr) and we are inside the head, then by writing the (th)
+    we write something like this here as i wrote the name here  with that i would like to write the 
+    employee id  and at the same time, i would like to write Employee role 
+    this is my head done  -->
+    
+
+    <!--Tables-->
+    <h3>HTML Table</h3>
+    <table>
+        <thread>
+            <tr>
+                <th>Name</th>
+                <th>Employee Id</th>
+                <th>Employee Role</th>
+            </tr>
+        </thread>
+        <!-- what i will do know i will add the data here what do i need to do to add more data 
+    have to make a table row, and i will not write (th) inside it,this time i will write (td)-->
+
+    <tbody>
+        <tr>
+            <td>Priyanshu</td>
+            <td>324532</td>
+            <td>Programmer</td>
+        </tr>
+        <tr>
+            <td>Sajal</td>
+            <td>334432</td>
+            <td>Data Analyst</td>
+        </tr>
+        <tr>
+            <td>Praval</td>
+            <td>667832</td>
+            <td>Web developer</td>
+        </tr>
+    </tbody>
+        
+    </table>
+
+
+    
+</body>
+</html>
