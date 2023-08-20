@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Block elements</title>
+</head>
+<body>
+    <!--  i write this is a paragraph and if i write this is also a paragraph then what will happen 
+    it is in different line, i'd written here itself why did this is a paragraph jump to a different 
+    line? i want to tell you paragraph is a block element. block element means it takes up the entire 
+    width. and any element that is next will be after it. 
+     
+    if i span this paragraph, and span this well then see what happens there's this is a paragraph 
+    and this is also a paragraph  this is because span tag  is an inline elements 
+    inline elements come in same line 
+
+
+    block elements take up the entire space elements that take only their space are inline-->
+<p>this is a paragraph</p>
+<p>this is also a paragraph</p>
+<span>this is s span</span> <span>this is also a span</span>   
+</body>
+</html>
