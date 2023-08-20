@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is a html forms tutorial</h2>
+    <form action ="backend.php">
+        <!-- you can see that role is in same line i wanted it in the next line i have two options
+        now , either use br tag for line break or what can i do is it's better technique .
+        i will use division tags or div tag what is the use of div tags ? it's used to bring a
+        division  the effect of doing now it came down this happened because of my input tag, 
+        that is an inline element, span is an inline element. and what's div? Div is a block element 
+        it takes up an entire block as width and the next element has to go down. that's why i used div, 
+        we will discuss this later. we used the div for it be in the next line i don't recommend using
+        br tag. we will avoid br as much as possible in our design.  so i did this and then, even 
+        if i use a br , nothing will happen. there will only be a space and my form will look good 
+        but we will achieve this using css.  using margin and padding 
+        -->
+
+        <!-- and i will also quickly explains label tags. suppose i ant to add a label, i'll show one and you can 
+        do the rest yourself.  i'll write label then for = name. i'll take the id as name.-->
+
+        <label for ="Name"></label>
+    
+        <div>
+             Name: <input type = "text" name = "myName"> <!-- i will explain the name is now  name is 
+            what your backend will recogonise this by when putting the data in backend  like i am
+            doing in backend.php, so backend.php has to identify everything. it will say this is my 
+            Name . so backend will have a way to take value of myName -->
+
+        </div>
+        <br>
+        <div>
+            Role: <input type = "text" name = "myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type ="text" name = "myEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type ="date" name = "myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type ="number" name = "myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type ="checkbox" name = "myEligibility">
+        </div>
+        <br>
+        <div>
+            Gender:Male <input type ="radio" name = "myGender">feMale<input type ="radio" name = "myGender">
+        </div>
+        <br>
+        <!-- here we submit the form here -->
+        <div>
+            <input type ="Submit" value ="Submit Now">
+            <input type ="reset" value ="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
