@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html entities </title>
+</head>
+<body>
+    <div class=""container">
+        <p> this is a paragraph</p>
+    </div>
+    <!-- both the things are same it will gave same output
+     for line space we are using &nbsp -->
+    <div class=""container">
+        <p> this is        a paragraph</p>
+    </div>
+    <!-- html entities are the reserved characters in html like this less than symbol or 
+    grater than symbol so what do you need to do, if you want to write p in angular brackets
+    then you will need to use html entities to write it  
+    html entities are not just used for these you can use html entities to write such character
+    which is not present in your keyboard  they are special character like as pound symbol   -->
+    <p>This is another &nbsp; &nbsp; paragraph with two spaces </p>
+    <P>paragraph is written like this &lt;p&gt;</P>
+    <p>Pound is written like this &pound;</p>
+    <p>Copyright is written like this &copy;</p>
+    <p>Another character is &rAarr;</p>
+    <p>Another character is written like this &#203;</p>
+</body>
+</html>
