@@ -1,0 +1,60 @@
+<!-- 
+1. css selectors are used to find the element whose property 
+will be set 
+2. selectors are ued to target the html elements 
+3. selectors makes it easy for us to easily target single/multiple 
+HTML elements in the markup 
+
+p{color:blue;}
+
+
+there are four types of css selector 
+1. css element selectors 
+2. css class selectors 
+3. css id selectors 
+4. the css grouping selectors 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selectors </title>
+   <!-- this is a element selectors in css -->
+  <style>
+    p{
+        color:red;
+    }
+  </style>
+  <!-- it is id selector  -->
+  <style>
+   #redElement{
+    color:aqua; 
+}
+/* this is class selector */ 
+.redElement{
+ color:red;
+}
+.bgBlue{
+    background-color:blue;
+}
+/* this is a grouping selector */
+footer, span{
+    background-color:pink;
+}
+</style>
+</head>
+<body>
+<h3>Css selectors </h3> 
+<p> this is a simple paragraph to demonstrate css selectors</p>  
+<p id ="redElement" class ="redElement bgBlue"> this is another paragraph to demonstrate css selectors</p>
+<footer>this is web development course</footer>
+<span> this is taught by code with harry </span>
+<div>
+    <p> this is yet another simple paragraph inside div to demonstrate css selectors</p>
+</div>
+
+</body>
+</html>
