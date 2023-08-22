@@ -1,0 +1,20 @@
+<!-- css gives style to raw html 
+css stands for cascading styles sheet 
+css used to give style to our web pages 
+css is used to make  website responsive
+html is used to structure a website 
+css takes responsibility of design 
+ -->
+
+<!-- cascading style sheets which is known as css is a 
+style sheet language that is used to handle the presentation 
+of the web page containing HTML.
+2. it makes our websites beautiful and modern looking  -->
+
+<!-- p {color : blue;} -->
+
+<!-- there are three ways to use css, to add CSS to the markup
+1. inline css: css is added to the element directly using style attribute 
+2. internal css: css is kept inside the head tags in<style>tags
+3. External css: Css is kept separately inside a css style sheet 
+-->
