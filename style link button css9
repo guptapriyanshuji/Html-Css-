@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors & more designing</title>
+    <style>
+        .container{
+            border:2px solid red;
+            background-color: rgb(223,245,201);
+            padding:34px;
+            margin:34px;
+            width:666px;
+            margin:auto;
+        }
+        a{
+            text-decoration:none; /* making text decoration:none; underline will be removed  */
+        }
+        a.hover{
+            color:green; /* a hover means whenever you take pointer on it whenever i hover it should change to green as you see */
+            background-color:crimson; 
+        }
+        /* there is another pseudo selectors a: visited the visited link behave differently means once it will become visited like suppose */
+        a:visited{
+            background-color:yellow;
+        }
+        a.active{
+            background-color:darkblue; /* let me change background instead of color */
+        } 
+        .btn{
+            background-color:yellow;
+            padding:6px;
+            border:none;
+            cursor:pointer;
+            font-size:13px;
+            border-radius:4px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3> this is my heading </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nostrum possimus ipsam sint rerum a laboriosam dolore ipsum dignissimos optio temporibus mollitia deleniti assumenda, tempore, nulla quasi quaerat fugit fuga debitis? Suscipit, quia quidem!</p>
+        <a href="" class="btn">Read more</a>
+        <button class="btn">Contact us </button>
+    </div>
+    
+</body>
+</html>
