@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+        .container{
+          width: 900px;
+          border: 3px solid purple;
+          margin: auto;
+          /* you may want to give any other margin in Y and you can 
+          suppose i want to give 33px in Y */
+
+        }
+        /* if you want to center any box you want to use margin property 
+        we use margin auto property is used */ 
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(248,238,238);
+
+        }
+        #fruit{
+            float:left;
+            width: 48%;
+        }
+        #computer{
+            float:right;
+            width: 48%;
+        }
+        #stationary{
+            /* float:left; */
+            clear:both;
+            width: 100%;
+        }
+        p,h1{
+            text-align: right;
+            text-align: left;
+            text-align: center;
+            text-align: justify;
+
+        }
+        h1{
+            margin: 23px auto;
+            width:455px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam iure quidem neque. Asperiores, quibusdam distinctio laudantium, totam at iusto error fugit ex non est recusandae, modi corporis excepturi ipsum?</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>computers</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur provident quibusdam eos, voluptatum id sapiente minima labore atque temporibus sequi omnis! Nostrum, illum aut. Vitae provident dolore tempora dicta hic?</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur debitis laboriosam repudiandae laborum atque, nam corporis. Quod necessitatibus officia ut est deleniti inventore repellendus similique veniam ipsam provident! Soluta, esse.</p>
+
+            <!-- how to right or left float an item if you want to float right or left any element  -->
+        </div>
+    </div>
+</body>
+</html>
