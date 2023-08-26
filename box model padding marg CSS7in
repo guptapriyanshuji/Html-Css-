@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+       .container{
+        background-color:burlywood;
+        border:3px solid rgb(64,6,119);
+        /* first of all i will show you people by giving padding here i want the content that is there to go inside the box so what should i give, margin or padding ? what is inside a border, what is inside the border? padding is there if i give padding, what will be my content? it will shrink a little inside */
+        padding: 19px;
+        margin:34px;
+        /* if i write a padding-top,and padding-bottom, padding will come from top and bottom and it will not come from center if i will give padding left then element are float left  */
+
+        /* we can set padding for top, bottom,left and right like this 
+        padding-top:79px;
+        padding-bottom:79px;
+        padding-left:34px;
+        padding-right:79px;
+        */
+        
+        /*
+        margin-top:3px;
+        margin-bottom:5px;
+        margin-left:34px;
+        margin-right:5px; */
+
+        padding: 23px 56px 6px 78px;/* padding: top right bottom left; */
+
+        /* padding: y(top/bottom) x(left/right); */ padding: 34px 19px;
+        
+        border-radius:23px;
+        width:733px;
+        box-sizing: border-box;
+       }
+    </style>
+</head>
+<body>
+    <!--margin will come outside the border and padding is inside in border 1. come is margin 2.then border and last one is padding  -->
+
+
+    <!---->
+    <div class="container">
+        <h3>This is my first heading </h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti ut provident magnam dicta! Vitae mollitia quam debitis! Repudiandae asperiores deserunt excepturi officia!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my first heading </h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti ut provident magnam dicta! Vitae mollitia quam debitis! Repudiandae asperiores deserunt excepturi officia!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my first heading </h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti ut provident magnam dicta! Vitae mollitia quam debitis! Repudiandae asperiores deserunt excepturi officia!</p>
+    </div>
+    
+</body>
+</html>
