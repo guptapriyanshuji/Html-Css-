@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox in css</title>
+    <style>
+        .container{
+            height:544px;
+            width:100%;
+            border:2px solid black;
+            /* initialize the container as a flex box */
+            display: flex;
+            /* flex properties for container */
+           /*  flex-direction: row;  flex direction by default is row */
+             flex-direction: column;
+             flex-direction: column-reverse;
+             flex-direction: row-reverse;  
+             
+             /* flex-wrap: wrap-reverse; */
+             flex-wrap: wrap;
+
+             /* if i want to set both flex- direction and flex-wrap so i have a shorthand here called flex flow 
+              if i do this i can set both the properties together 
+             */
+             flex-flow: row-reverse wrap;
+
+             /* the things are not getting centered, it is not being centered so look at these things have become 
+             centrally align things */ 
+             justify-content: center;
+             justify-content: space-between;
+             justify-content: space-evenly;
+             justify-content: space-around;
+
+             align-items: center; /* it is for vertically center */ 
+             align-items: flex-end;
+             align-items: flex-start;
+             align-items: stretch;
+        }
+        .item{
+            width:200px;
+            height: 200px;
+            background-color: tomato;
+            border:2px solid green;
+            margin:10px;
+            padding:3px;
+        }
+        #item-1{
+            /* flex properties for a flex item */
+            /* higher order, later it shows up in the container */
+            /* order: 2; */ 
+
+            /* flex-grow: 2;
+            flex-shrink: 2; */ 
+        }
+
+        #item-2{
+            /* flex-grow:3;
+            flex-shrink:3;
+            flex-basis:260px;
+            /* when flex-direction is set to row flex basis: will control width */
+            /* when flex-direction is set to column flex-basis: will control height */
+        }
+        #item-3{
+            /* flex: 2 2 230px; */
+            align-self: flex-start;
+            align-self: flex-end;
+            align-self:center;
+        }
+    </style>
+</head>
+<body>
+    <!-- flex box is a one dimensional layout method for laying out items  in rows  or columns 
+        css flexbox is a better way to align items into a container 
+        flexbox = flexible+box
+        there is a flex container, many items can be inside it 
+        .-->
+  <h1>this is flexbox tutorial </h1>
+  <div class="container">
+    <!-- div.item#item-$*6 -->
+    <div class="item" id="item-1">First box</div>
+    <div class="item" id="item-2">Second box</div>
+    <div class="item" id="item-3">Third box</div>
+    <div class="item" id="item-4">Fourth box</div>
+    <div class="item" id="item-5">fifth box</div>
+    <div class="item" id="item-6">sixth box </div>
+  </div>
+
+</body>
+</html>
